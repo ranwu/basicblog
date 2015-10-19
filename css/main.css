@@ -1,0 +1,77 @@
+/*
+    Name: HTML5 Basic
+    Date: October 2015
+    Description: Sample layout for HTML5 and CSS3 goodness.
+    Version: 1.0
+    Author: Mike Chen
+    Email: eyedchen@foxmail.com
+*/
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/***** Global *****/
+/* Body */
+    body {
+        background: gainsboro;
+    }
+/* Headings */
+/* Anchors */
+/* Paragraphs */
+/* Lists */
+/* Quotes */
+/* HTML5 tags */
+    header, section, footer,
+    aside, nav, article, figure {
+        display: block;
+    }
+
+/****** Layout ******/
+    .body {
+        clear: both;
+        margin: 0 auto;
+        width: 800px;
+    }
+
+/****** Header ******/
+    #banner {
+        margin: 2.5em auto 0 auto;
+        height: 100px;
+        background: indianred;
+        border-radius: 5px;
+    }
+
+/****** Featured ******/
+    #featured {
+        background: white;
+        height: 100px;
+        margin: 20px auto 0 auto;
+        border-radius: 5px;
+    }
+
+/****** Body ******/
+    #content {
+        background: white;
+        height: 300px;
+        margin: 20px auto 0 auto;
+        border-radius: 5px;
+    }
+
+/****** Extras ******/
+    #extras {
+        background: seagreen;
+        height: 250px;
+        margin: 0px auto 2.5em auto;
+        border-radius: 5px;
+    }
+
+/****** About ******/
+    #contentinfo {
+        background: white;
+        height: 100px;
+        margin-bottom: 2em;
+        border-radius: 5px;
+    }
