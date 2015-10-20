@@ -8,10 +8,7 @@
 */
 
 /* reset */
-* {
-    margin: 0;
-    padding: 0;
-}
+@import url("reset.css");
 
 /***** Global *****/
 /* Body */
