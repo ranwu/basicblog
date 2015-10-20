@@ -44,6 +44,31 @@
         border-radius: 5px;
     }
 
+        /* banner */
+        h1 {
+
+        }
+
+        /* Main Nav */
+        #banner nav {
+            height: 40px;
+            background: #000305;
+            line-height: 30px;
+        }
+        #banner nav ul {
+            margin: 0 auto;
+            width: 800px;
+        }
+        #banner nav li {
+            line-height: 30px;
+            width: 100px;
+            background: gainsboro; /* ≤‚ ‘±≥æ∞ */
+            float: left;
+            display: inline;
+            margin: 0;
+        }
+
+
 /****** Featured ******/
     #featured {
         background: white;
