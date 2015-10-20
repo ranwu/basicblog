@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
     Name: HTML5 Basic
     Date: October 2015
@@ -59,7 +60,7 @@
         #banner nav li {
             line-height: 30px;
             width: 100px;
-            background: gainsboro; /* ²âÊÔ±³¾° */
+            background: gainsboro; /* æµ‹è¯•èƒŒæ™¯ */
             float: left;
             display: inline;
             margin: 0;
