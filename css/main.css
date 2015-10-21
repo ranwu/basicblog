@@ -54,7 +54,7 @@ a:hover, a:active {
 p {margin-bottom: 1.143em;}
 * p:last-child {margin-bottom: 0;}
 
-strong, b {font-weight: bold;}
+strong, b {font-weight: bold;   }
 em, i {font-style: italic;}
 
 ::-moz-selection {background: #F6CF74; color: #fff;}
@@ -128,6 +128,7 @@ dd {margin-left: 1.5em;}
         #banner nav ul {
             margin: 0 auto;
             width: 800px;
+            list-style: none;
         }
         #banner nav li {
             text-align: center;
@@ -148,6 +149,13 @@ dd {margin-left: 1.5em;}
             color: white;
             border-radius: 5px 0 0 5px;
         }
+        #banner nav a:link, #banner nav a:visited {
+            color: #ffffff;
+            /*padding: 5px 1.5em;*/
+            text-decoration: none;
+            font-weight: bold;
+        }
+
 
 
 
@@ -155,19 +163,70 @@ dd {margin-left: 1.5em;}
 /****** Featured ******/
     #featured {
         background: white;
-        height: 100px;
         margin: 20px auto 0 auto;
         border-radius: 5px;
+    }
+    #featured article {
+        padding: 20px;
+    }
+
+    #featured figure {
+        float: right;
+        border: 2px solid #eeeeee;
+        margin: 0.786em 2em 0 5em;
+    }
+    #featured h2 {
+        color: #C74451;
+        font-size: 1.714em;
+        margin-bottom: 0.333em;
+    }
+    #featured h3 {
+        font-size: 1.429em;
+        margin-bottom: .5em;
+    }
+    #featured h3 a:link, #featured h3 a:visited {
+        color: #000305;
+        text-decoration: none;
+    }
+    #featured h3 a:hover, #featured h3 a:active {
+        color: #ffffff;
     }
 
 /****** Body ******/
     #content {
         background: white;
-        height: 300px;
+        /*height: 300px;*/
         margin: 20px auto 0 auto;
         border-radius: 5px;
     }
+    /* Blog */
+    .hentry {
+        border-bottom: 1px solid #eeeeee;
+        padding: 1.5em 0;
+    }
+    #content > .hentry { padding: 1em 0;}
+     .entry-title {
+        font-size: 1.429em;
+        margin-bottom: 0;
+    }
+     .entry-title a:link, .entry-title a:visited {
+        text-decoration: none;
+    }
 
+     /* Content */
+    .hentry footer { margin-bottom: 2em;}
+    .hentry footer address { display: inline;}
+    #posts-list footer address { display: block;}
+
+    /* Blog Index */
+    #posts-list { list-style: none; margin: 0;}
+    #posts-list .hentry { padding-left: 200px; position: relative;}
+    #posts-list footer {
+        left: 10px;
+        position: absolute;
+        top: 1.5em;
+        width: 190px;
+    }
 /****** Extras ******/
     #extras {
         background: seagreen;
